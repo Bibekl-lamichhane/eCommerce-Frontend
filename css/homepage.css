@@ -18,7 +18,11 @@
 .books img {
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Make the image cover the entire container */
+    object-fit: scale-down; /* Make the image cover the entire container */
+}
+.description{
+    padding: 15px;
+    text-align: center;
 }
 .books:hover{
     transform: scale(1.1);
